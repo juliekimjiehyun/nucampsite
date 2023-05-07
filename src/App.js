@@ -1,15 +1,8 @@
 import { Routes, Route} from 'react-router-dom';
-import ContactPage from './pages/ContactPage';
-import HomePage from './pages/HomePage';
 import React from 'react';
 import './App.css';
-import {Container, Navbar, NavbarBrand} from 'reactstrap';
-import NucampLogo from './app/assets/img/logo.png';
-import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import AboutPage from './pages/AboutPage';
-import CampsiteDetailPage from './pages/CampsiteDetailPage';
+import { AboutPage, CampsiteDetailPage, CampsitesDirectoryPage, ContactPage, HomePage} from './pages';
+import { Header, Footer } from './components';
 
 
 function App() {
